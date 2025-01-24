@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color:  #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.fullWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/*_____________________header______________________ */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EBFF;
+
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 0px;
+}
+
+.navList {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navList:hover {
+    color: #4400DD;
+}
+
+/*_____________________header-end__________________ */
+
+/*________________________main_____________________ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.Gap {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.Input {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background-color: #F1EBFF;
+    gap: 12px;
+}
+
+.Input image {
+    width: 24px;
+    height: 24px;
+    background-color: #4400DD;
+}
+
+.Input p {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.searchButton {
+    display: flex;
+    padding: 24px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    background: #40D;
+}
+
+.Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title p {
+    display: flex;
+    text-align: right;
+    color: #5E6577;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.Title image {
+    width: 422px;
+    height: 422px;
+}
+
+.fee {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #CCD3E0;
+    height: 48px;
+}
+
+#displayTotalPrice {
+    color: #40D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#allFee {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.strikedText {
+    display: flex;
+    gap: 16px;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    padding: 16px 23px 88px;
+}
+
+.strikedText p:first-of-type {
+    color: #5E6577;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration-line: strikethrough;
+    width: 488px;
+}
+
+.strikedText p:not(:first-of-type) {
+    color: #969696;
+    width: 488px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: strikethrough;
+}
+
+.sacramentoHostel {
+    display: flex;
+    align-items: center;
+    border: 1px solid #40D;
+    background-color: #EDE6FC;
+}
+
+.both {
+    display: flex;
+    gap: 16px;
+    padding: 16px 24px;
+    height: 272px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+}
+
+.pharagrah {
+    display: flex;
+    flex: 1 0 0;
+    color: #5E6577;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#sachost {
+    color: #3B3B3B;
+}
+
+#sachosp {
+    color: #5E6577;
+}
+
+#clihost {
+    color: #07081A;
+}
+
+#clihosp {
+    color: #155EEF;
+}
+
+.clinkHostel {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #004FE3;
+}
+
+/*_________________________main-end_______________________*/
+/*_________________________footer_________________________*/
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    border-top: 1px solid #F1EBFF;
+}
+
+.Image {
+    width: 24px;
+    height: 24px;
+    color: #A4A7AE;
+}
+
+.structure {
+    display: flex;
+    gap: var(--spacing-3xl, 24px);
+}
